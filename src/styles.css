@@ -1,48 +1,65 @@
 body {
+    margin: 0px;
+    padding: 0px;
     font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #f5f5f5;
   }
   
-  @@ -7,6 +8,7 @@ div.container {
+  div.container {
+    margin: 0px auto;
+    width: 550px;
   }
   
   h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 100px;
     color: rgba(175, 47, 47, 0.15);
   }
   
-  @@ -25,6 +27,9 @@ input[type="checkbox"] {
+  input[type="checkbox"] {
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+  }
+  @@ -26,6 +32,9 @@ input[type="checkbox"] {
+  }
   
   .form input {
+    margin: 0px;
+    margin-left: 15px;
+    padding: 10px 20px;
     border: none;
     font-size: 30px;
     font-weight: 300;
-    line-height: 1.4em;
+  @@ -37,7 +46,13 @@ input[type="checkbox"] {
+    border-bottom: none;
   }
   
-  .main {
-  @@ -35,6 +40,13 @@ input[type="checkbox"] {
+  .main ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  
   .main > ul > li {
+    padding: 10px 15px 10px 5px;
     border-bottom: solid 1px #ededed;
     color: #777;
     font-size: 28px;
-    font-weight: 200;
-  }
-  
-  .main button {
-    font-size: 25px;
-    color: #cc9a9a;
+  @@ -50,6 +65,7 @@ input[type="checkbox"] {
   }
   
   footer {
+    padding: 5px 15px;
     border: solid 1px #ddd;
     background-color: white;
   }
-  .count,
-  button {
-    color: #777;
+  @@ -60,6 +76,8 @@ button {
   }
+  
   button {
+    margin: 0px;
+    padding: 5px 10px;
     background: none;
     border: none;
   }
